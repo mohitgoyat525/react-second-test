@@ -11,7 +11,8 @@ const Cards = () => {
     };
 
     return (
-        <div className='d-flex align-items-center gap-4 justify-content-center h-screen'>
+        <div className='d-flex align-items-center  justify-content-center h-screen '>
+            <div className='d-flex align-items-center gap-4 lg-flex-wrap'>
             {CARDS_LIST.map((obj, i) => (
                 <div key={i} className='card px-4'>
                     <img src={obj.img} alt={obj.name} className='cards-img' />
@@ -23,6 +24,7 @@ const Cards = () => {
                     </h2>
                 </div>
             ))}
+                </div>
         </div>
     );
 };
