@@ -4,7 +4,7 @@ import { useSearchParams } from 'react-router';
 
 
 const Cards = () => {
-    const [params, setParams] =useSearchParams() ;
+    const [, setParams] =useSearchParams() ;
 
     const handleClick = (name) => {
         setParams({ name: name.toLowerCase() });

@@ -24,24 +24,24 @@ export const COMPETITION_LIST = [
   },
   {
     brand: "Accountancy support",
-    rift: <CancelIcon />,
-    taxscout: <CancelIcon />,
-    coconut: <TickIcon />,
+    rift: <TickIcon />,
+    taxscout: <TickIcon />,
+    coconut: <CancelIcon />,
     pie: <TickIcon />,
   },
   {
     brand: "Tax Filing",
-    rift: <CancelIcon />,
-    taxscout: <CancelIcon />,
+    rift: <TickIcon />,
+    taxscout: <TickIcon />,
     coconut: <TickIcon />,
     pie: <TickIcon />,
   },
   {
     brand: "Fee",
-    rift: 'Est: £300 per year',
-    taxscout: '£300 per year',
-    coconut: '£9.00 p/m £108 per year',
-    pie: '£6.99 or £9.99p/m £59.99 review fee £143.87 per year',
+    rift: "Est: £300 per year",
+    taxscout: "£300 per year",
+    coconut: "£9.00 p/m £108 per year",
+    pie: "£6.99 or £9.99p/m £59.99 review fee £143.87 per year",
   },
 ];
 
