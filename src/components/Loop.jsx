@@ -14,7 +14,8 @@ const Loop = () => {
 
     return (
         <div>
-            <h2>Count: {count}</h2>
+            <h2 className='text-center'>For Loop</h2>
+            <h2 className='text-black text-center fs-1 fw-bold'>Count: {count}</h2>
         </div>
     );
 };

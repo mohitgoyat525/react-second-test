@@ -1,26 +1,18 @@
 import React, { useState, useEffect } from 'react';
 
 const CountDown = () => {
-    const [countdown, setCountDown] = useState(1);
+    const [count, setCount] = useState(0)
 
     useEffect(() => {
-        const incrementCount = () => {
-            setCountDown(prevCount => {
-                if (prevCount < 100) {
-                    setTimeout(incrementCount, 1000);
-                    return prevCount + 1;
-                }
-                return prevCount;
-            });
-        };
-
-        setTimeout(incrementCount, 1000);
-
-    }, []);
+        setTimeout(() => {
+            setCount(count + 1 === 101 ? 100 : count + 1)
+        }, 1000)
+    }, [count])
 
     return (
         <div>
-            <h1>Count: {countdown}</h1>
+            <h2 className='text-center'>useEffect CountDown</h2>
+             <p className='text-black text-center fs-1 fw-bold'>{count}</p>
         </div>
     );
 };

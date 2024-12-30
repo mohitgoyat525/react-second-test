@@ -3,25 +3,26 @@ import { COMPETITION_LIST } from '../utils/helper'
 
 const Competition = () => {
   return (
-      <div className='common-bg d-flex align-items-center justify-content-center h-screen'>
+      <div className='common-bg d-flex align-items-center justify-content-center h-screen overflow-hidden'>
           <div className='container'>
               <div className='row'>
-                  <div className='col-12 col-lg-6'>
-                      <h2 className='text-white second-heading'>Competition</h2>   
+                  <div className='col-12 col-md-6'>
+                      <h2 className='m-0 text-white second-heading'>Competition</h2>   
                       <p className='custom-text text-white custom-max-w'>Given our best in class offering, we need to cut through by opting for penetration pricing.</p>
                       <p className='custom-text text-white custom-max-w'>This will allow us to disrupt an established market by introducing our product and service at a lower price to entice new customers to purchase or subscribe. This strategy will help us capture the attention of this very large audience in need of a good solution.</p>
                       <p className='custom-text text-white custom-max-w'>The current return and refund process centres around either traditional advice or software. By combining both together for an aggressively affordable fee, we think we can capture much of the demand for those people that feel competent in managing their own refunds / returns.</p>
                       <p className='custom-text text-white custom-max-w'>As well as being the cheapest in market, our product offers everything a sole trader needs in one place, whilst pricing innovation of zero commission rather than a commission, will drive customers that are particularly price sensitive.</p>
                   </div>
-                  <div className="col-12 col-lg-6 table-bg d-flex border-radius-xl align-items-center justify-content-center sm-py-xl overflow-hidden">
+                  <div className="col-12 mx-auto col-md-6 table-bg d-flex border-radius-xl align-items-center justify-content-center sm-py-xl overflow-hidden">
                       <div className="d-flex align-items-center justify-content-center w-100">
-                          <div className="table-responsive"> 
+                         
+                          <div className="table-responsive">
                               <table className="custom-table-bg">
                                   <thead>
                                       <tr>
-                                          <th class=" d-sm-table-cell"></th>
+                                          <th class="d-sm-table-cell"></th>
                                           <th className="custom-rounded-top-left-border text-center bg-white fw-semibold table-heading">Rift</th>
-                                          <th className="custom-rounded-top-left-border text-center bg-white fw-semibold table-heading">Taxscout</th>
+                                          <th className="custom-rounded-top-left-border text-center bg-white fw-semibold table-heading">Taxscouts</th>
                                           <th className="custom-rounded-top-left-border text-center bg-white fw-semibold table-heading">Coconut</th>
                                           <th className="custom-rounded-top-left-border text-center bg-lightGreen fw-semibold table-heading">Pie</th>
                                       </tr>
@@ -41,6 +42,7 @@ const Competition = () => {
                           </div>
                       </div>
                   </div>
+
 
 
 
