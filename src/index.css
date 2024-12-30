@@ -96,7 +96,119 @@ max-width: 622px;
   gap: 4px;
 }
 
+.use-effect-text{
+  font-size: 24px ;
+}
+
+
+/* ----------------------second-section----------- */
+.second-heading{
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 59.8px;
+  padding-bottom: 50px;
+}
+.custom-max-w{
+  max-width: 481px !important;
+}
+
+.border-radius-xl{
+  border-radius: 12px;
+}
+
+.table-bg{
+  background-color: #026070;
+}
+
+.border-b{
+  border-bottom: 0.75px solid #000000;
+}
+
+.table-parent{
+  justify-content: space-around;
+}
+
+.cards-img{
+  width: 320px;
+  height: 555px;
+  object-fit: cover;
+}
+
+.max-w-sm{
+  max-width: 95px !important;
+}
+
+.table-heading{
+  font-size: 12px;
+  line-height: 15.6px;
+  color: #000000;
+  padding: 27px 19px !important;
+  width: 95px !important;
+}
+
+.custom-table-bg{
+  background: #026070 !important;
+  border-radius: 12px !important;
+}
+
+.bg-lightGreen{
+  background-color: #56E3CB !important;
+}
+
+
+/* Style the table */
+.custom-table-bg {
+    width: 100%;
+    border-collapse: separate;  
+    border-spacing: 10px 0;
+}
+
+
+.custom-td {
+    padding: 18px 21px;
+    background-color: #fff;
+    border-top: 0.75px solid #000000; 
+    border-bottom: 0.75px solid #000000; 
+}
+
+.custom-td:last-child {
+    background-color: #e8f5e9;
+}
+
+.table-heading {
+    padding: 12px 15px;
+}
+
+table th:first-child, table td:first-child {
+    border-left: none;
+}
+
+thead tr th {
+    padding: 12px 15px;
+}
+
+.custom-border-b-none{
+  border-bottom: none !important;
+}
+
+.custom-rounded-top-left-border{
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+}
+.custom-rounded-top-left-border-bottom{
+  border-bottom-left-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+
+
+/* ------------responsive------------- */
 @media (max-width: 1199.98px){
+
+  .sm-py-xl{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
   .product-parent{
     max-width: unset;
   }
@@ -115,6 +227,12 @@ max-width: 622px;
 }
 
 @media (max-width : 767.98px) {
+
+    .table-responsive {
+        -webkit-overflow-scrolling: touch; 
+        overflow-x: auto;
+    }
+
 
   .custom-heading{
     font-size: 26px;
@@ -163,107 +281,6 @@ max-width: 622px;
   }
 }
 
-.use-effect-text{
-  font-size: 24px ;
-}
-/* ----------------------second-section----------- */
-.second-heading{
-  font-size: 46px;
-  font-weight: 600;
-  line-height: 59.8px;
-  padding-bottom: 50px;
-}
-.custom-max-w{
-  max-width: 481px !important;
-}
-
-.border-radius-xl{
-  border-radius: 12px;
-}
-
-.table-bg{
-  background-color: #026070;
-}
-
-.border-b{
-  border-bottom: 0.75px solid #000000;
-}
-
-.table-parent{
-  justify-content: space-around;
-}
-
-.cards-img{
-  width: 320px;
-  height: 555px;
-  object-fit: cover;
-}
-
-.table-heading{
-  font-size: 12px;
-  line-height: 15.6px;
-  color: #000000;
-  padding: 27px 19px !important;
-  width: 95px !important;
-}
-
-.custom-table-bg{
-  background: #026070 !important;
-  border-radius: 12px !important;
-}
-
-.bg-lightGreen{
-  background-color: #56E3CB !important;
-}
-
-/* .table-text{
-  padding: 39px 21px;
-} */
-
-/* Style the table */
-.custom-table-bg {
-    width: 100%;
-    border-collapse: separate;  
-    border-spacing: 10px 0;
-}
-
-
-.custom-td {
-    padding: 10px 21px;
-    background-color: #fff;
-    border-top: 0.75px solid #000000; 
-    border-bottom: 0.75px solid #000000; 
-}
-
-.custom-td:last-child {
-    background-color: #e8f5e9;
-}
-
-.table-heading {
-    padding: 12px 15px;
-}
-
-table th:first-child, table td:first-child {
-    border-left: none;
-}
-
-thead tr th {
-    padding: 12px 15px;
-}
-
-.custom-border-b-none{
-  border-bottom: none !important;
-}
-
-.custom-rounded-top-left-border{
-  border-top-left-radius: 6px !important;
-  border-top-right-radius: 6px !important;
-}
-.custom-rounded-top-left-border-bottom{
-  border-bottom-left-radius: 6px !important;
-  border-bottom-right-radius: 6px !important;
-}
-
 .custom-px{
   padding-left: 31px;
   padding-right: 31px;
@@ -276,6 +293,7 @@ color: #000000;
 padding-left: 12px;
 padding-right: 12px;
 }
+
 
 
 
