@@ -217,8 +217,16 @@ thead tr th {
   border-bottom-right-radius: 6px !important;
 }
 
+
+
 /* ------------responsive------------- */
 @media (max-width: 1199.98px) {
+
+  .custom-py-md{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
   .max-lg-w-full{
     width: 100% !important;
   }
@@ -262,6 +270,7 @@ thead tr th {
   .second-heading {
     font-size: 36px;
     padding-bottom: 35px !important;
+  
   }
 
 }
@@ -286,6 +295,7 @@ thead tr th {
   .second-heading {
     font-size: 25px;
     padding-bottom: 25px !important;
+    
   }
 
   .custom-heading {

@@ -11,8 +11,8 @@ const CountDown = () => {
 
     return (
         <div>
-            <h2 className='text-center'>useEffect CountDown</h2>
-             <p className='text-black text-center fs-1 fw-bold'>{count}</p>
+            <h2 className='text-center fw-bold'>useEffect CountDown</h2>
+             <p className='text-black text-center fs-1 fw-medium'>{count}</p>
         </div>
     );
 };

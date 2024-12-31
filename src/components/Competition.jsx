@@ -3,7 +3,7 @@ import { COMPETITION_LIST } from '../utils/helper'
 
 const Competition = () => {
   return (
-      <div className='common-bg d-flex align-items-center justify-content-center h-screen overflow-hidden'>
+      <div className='common-bg d-flex align-items-center justify-content-center h-screen overflow-hidden custom-py-md'>
           <div className='container'>
               <div className='row'>
                   <div className='col-12 col-lg-6'>
