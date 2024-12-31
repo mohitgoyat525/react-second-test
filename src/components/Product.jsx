@@ -6,7 +6,7 @@ const Product = () => {
           <div className="custom-container">
               <div className="d-flex flex-column flex-xl-row gap-3">
                   <div className="product-parent">
-                      <h1 className="text-white custom-heading">Product</h1>
+                      <h1 className="text-white custom-heading m-0">Product</h1>
                       <p className="m-0 text-white custom-text fw-normal">
                           Due to the confusing nature of tax, the lack of awareness of the
                           tax deduction system and the complicated tax refund process, we
@@ -14,7 +14,7 @@ const Product = () => {
                           service. From release in 2015, our original tax product has
                           achieved 60x growth, bringing in over £5m revenue in 2022.
                       </p>
-                      <p className="m-0 mt-2 text-white custom-text fw-normal">
+                      <p className="m-0 pt-2 text-white custom-text fw-normal">
                           With over 8 years of industry experience, we have listened to
                           our clients to evolve our app into a whole-of-market product
                           that will also meet the needs of the tax return market as well
@@ -22,12 +22,12 @@ const Product = () => {
                           features users need to meet the requirements of the upcoming
                           switch to Making Tax Digital.
                       </p>
-                      <p className="m-0 mt-2 text-white custom-text fw-normal">
+                      <p className="m-0 pt-2 text-white custom-text fw-normal">
                           Once we establish the ourself in the UK, we plan to expand into
                           other territories to take advantage of the £500 billion global
                           market
                       </p>
-                      <p className="m-0 mt-2 text-white custom-text fw-normal">
+                      <p className="m-0 pt-2 text-white custom-text fw-normal">
                           We have highlighted some of our key features that will be the
                           cornerstone of our product launch in April 23.
                       </p>

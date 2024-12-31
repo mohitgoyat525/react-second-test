@@ -43,7 +43,7 @@
 
 .custom-heading {
   font-size: 46px;
-  margin-bottom: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 .custom-text {
@@ -219,6 +219,9 @@ thead tr th {
 
 /* ------------responsive------------- */
 @media (max-width: 1199.98px) {
+  .max-lg-w-full{
+    width: 100% !important;
+  }
 
   .sm-py-xl {
     padding-top: 40px;
@@ -253,7 +256,7 @@ thead tr th {
 
   .custom-heading {
     font-size: 36px;
-    margin-bottom: 35px !important;
+    padding-bottom: 35px !important;
   }
 
   .second-heading {
@@ -287,7 +290,7 @@ thead tr th {
 
   .custom-heading {
     font-size: 26px;
-    margin-bottom: 25px !important;
+    padding-bottom: 25px !important;
   }
 
   .custom-text {

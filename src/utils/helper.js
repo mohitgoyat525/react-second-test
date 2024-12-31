@@ -46,17 +46,16 @@ export const COMPETITION_LIST = [
 ];
 
 export const CARDS_LIST = [
-    {
-        img: "/assets/images/jpg/itachi.jpg",
-        name: "Itachi",
-    },
-    {
-        img: "/assets/images/jpg/madra.jpg",
-        name: "Madara",
-   
-    },
-    {
-        img: "/assets/images/jpg/obito.jpg",
-        name: "Obito",
-    }
-]
+  {
+    img: "/assets/images/jpg/itachi.jpg",
+    name: "Itachi Uchhia",
+  },
+  {
+    img: "/assets/images/jpg/madra.jpg",
+    name: "Madara Uchhia",
+  },
+  {
+    img: "/assets/images/jpg/obito.jpg",
+    name: "Obito Uchhia",
+  },
+];
